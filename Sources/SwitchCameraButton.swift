@@ -35,7 +35,7 @@ public final class SwitchCameraButton: UIButton {
     }
   }
 
-  @IBInspectable var fillColor: UIColor = UIColor.blue {
+  @IBInspectable var fillColor: UIColor = UIColor.black {
     didSet {
       setNeedsDisplay()
     }
