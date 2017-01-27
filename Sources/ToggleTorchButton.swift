@@ -42,7 +42,7 @@ public final class ToggleTorchButton: UIButton {
   }
 
   @IBInspectable var edgeHighlightedColor: UIColor = UIColor.white
-  @IBInspectable var fillHighlightedColor: UIColor = UIColor.darkGray
+  @IBInspectable var fillHighlightedColor: UIColor = UIColor.red
 
   public override func draw(_ rect: CGRect) {
     // Colors
