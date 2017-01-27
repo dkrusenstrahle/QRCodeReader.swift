@@ -35,7 +35,7 @@ public final class ToggleTorchButton: UIButton {
     }
   }
 
-  @IBInspectable var fillColor: UIColor = UIColor.lightGray {
+  @IBInspectable var fillColor: UIColor = UIColor.yellow {
     didSet {
       setNeedsDisplay()
     }
