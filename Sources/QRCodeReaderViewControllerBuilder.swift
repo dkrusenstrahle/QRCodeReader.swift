@@ -42,7 +42,7 @@ public final class QRCodeReaderViewControllerBuilder {
   /**
    The title to use for the cancel button.
    */
-  public var cancelButtonTitle = "Cancel"
+  public var cancelButtonTitle = "Done"
 
   /**
    The code reader object used to scan the bar code.
@@ -67,7 +67,7 @@ public final class QRCodeReaderViewControllerBuilder {
   /**
    Flag to display the switch camera button.
    */
-  public var showSwitchCameraButton = true
+  public var showSwitchCameraButton = false
 
   /**
    Flag to display the toggle torch button. If the value is true and there is no torch the button will not be displayed.
