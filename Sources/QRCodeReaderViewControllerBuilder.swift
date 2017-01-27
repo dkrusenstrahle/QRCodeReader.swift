@@ -42,7 +42,7 @@ public final class QRCodeReaderViewControllerBuilder {
   /**
    The title to use for the cancel button.
    */
-  public var cancelButtonTitle = "Done"
+  public var cancelButtonTitle = "Cancel"
 
   /**
    The code reader object used to scan the bar code.
