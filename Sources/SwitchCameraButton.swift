@@ -35,14 +35,14 @@ public final class SwitchCameraButton: UIButton {
     }
   }
 
-  @IBInspectable var fillColor: UIColor = UIColor.darkGray {
+  @IBInspectable var fillColor: UIColor = UIColor.blue {
     didSet {
       setNeedsDisplay()
     }
   }
 
   @IBInspectable var edgeHighlightedColor: UIColor = UIColor.white
-  @IBInspectable var fillHighlightedColor: UIColor = UIColor.blue
+  @IBInspectable var fillHighlightedColor: UIColor = UIColor.black
 
   public override func draw(_ rect: CGRect) {
     let width  = rect.width
